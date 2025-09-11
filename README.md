@@ -1,2 +1,1 @@
-# Website-Project
-Weather Application
+# Weather Application Project
