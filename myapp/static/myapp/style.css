@@ -1,0 +1,103 @@
+body {
+  background-color: #d0f0fd;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.navbar {
+  background-color: #0077b6;
+}
+
+.navbar-brand,
+.nav-link {
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+  background-color: #EEDC82 !important;       /* Soft lemon yellow */
+  color: #003049 !important;       /* Deep blue for contrast */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-decoration-line: none;
+  text-decoration-style: wavy;
+}
+
+.weather-card {
+  background-color: #87CEFA !important;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 500px;
+}
+
+.weather-icon {
+  width: 200px;
+  height: 160px;
+  object-fit: contain;
+}
+
+.forecast {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.forecast-day {
+  text-align: center;
+  padding: 10px;
+  width: 100px;
+  border-radius: 10px;
+  background: linear-gradient(to bottom right, #e0f7fa, #fff);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.forecast-day:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+}
+
+.forecast-day span:nth-of-type(1) {
+  font-size: 2rem;
+  display: inline-block;
+  transition: transform 0.3s ease, text-shadow 0.3s ease;
+}
+
+.forecast-day:hover span:nth-of-type(1) {
+  transform: scale(1.3);
+  text-shadow: 0 0 10px rgba(255, 215, 0, 0.6);
+}
+
+.forecast-day.active {
+  background: #ffe082;
+  transform: scale(1.05);
+}
+
+.forecast-day:hover span:nth-of-type(1) {
+  transform: scale(1.3);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
