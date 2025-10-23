@@ -8,4 +8,5 @@ It prominently displays the current local time and temperature, alongside a dyna
 Technologies used:
 
 Backend: Python, Django
+
 Frontend: HTML, CSS (Boostrat for styling)
