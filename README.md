@@ -9,4 +9,4 @@ Technologies used:
 
 Backend: Python, Django
 
-Frontend: HTML, CSS (Boostrat for styling)
+Frontend: HTML, CSS (Bootstrap for styling)
